@@ -7,29 +7,26 @@ function soma(num1, num2) {
 }
 
 // EXERCÍCIO 0B
-function imprimeMensagem(mensagem) {
+function imprimeMensagem() {
   // implemente sua lógica aqui
-  const msg= prompt('Digite uma mensagem!')
-
-  console.log(msg)
+  let mensagem1 = prompt('Digite uma mensagem!')
+ console.log(`A sua mensamge é ${mensagem1}.`)
 }
+ imprimeMensagem()
 
 // EXERCÍCIOS PARA FAZER ------------------------------------------------------------------
 
 // EXERCÍCIO 01
-function calculaAreaRetangulo(altura, largura) {
+function calculaAreaRetangulo() {
 
-  // implemente sua lógica aqui
- altura = Number(prompt('Digite a altura do triângulo.'))
- largura = Number(prompt('Digite a lagura do triângulo.'))
-
-
-
-return altura * largura
+let altura = Number(prompt('Digite a altura do triângulo.'))
+let largura = Number(prompt('Digite a largura do triângulo.'))
+let area = largura * altura
+console.log(`A área do trângulo é ${area}`)
  
-
-
 }
+calculaAreaRetangulo(3, 5)
+
 
 // EXERCÍCIO 02
 function imprimeIdade() {
@@ -38,7 +35,7 @@ function imprimeIdade() {
 }
 
 // EXERCÍCIO 03
-function calculaIMC(peso, altura) {
+function calculaIMC() {
   // implemente sua lógica aqui
 
 }
