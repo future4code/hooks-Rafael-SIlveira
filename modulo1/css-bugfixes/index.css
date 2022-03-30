@@ -8,7 +8,7 @@
     margin: 0;
     padding: 0;
 }
-
+body {font-family: Arial;}
 h2 {
     background-color: #fe7e02;
     padding: 10px 5px 10px 5px;
@@ -33,9 +33,6 @@ div>p:first-child {
     display: inline;
 }
 
-div img {
-    background: black;
-}
 
 .botao-amarelo {
     background-color: #ffaf43;
@@ -55,12 +52,11 @@ div img {
     text-align: center;
 }
 
-.icone {
+.icone { width: auto;
     height: 15px;
 }
 table {
-    margin-left: 25%;
-    
+    margin: auto
 }
 
 
@@ -71,7 +67,7 @@ table {
   **/
 
 #container-de-descricao {
-    
+    padding-top: 100px;
     background-color: #2274a5;
     color: white;
 }
@@ -108,6 +104,7 @@ table {
 }
 
 td button {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #fadf63;
     width: 150px;
     height: 30px;
@@ -115,13 +112,31 @@ td button {
     color: black;
 }
 
+
+input {
+    border-top:1px solid #ffffff;
+
+
+
+border-left:1px solid #ffffff;
+
+border-right:1px solid #ffffff;
+
+
+color: #000000;
+}
 .container-do-search {
+    
+
     margin-top: 20px;
     height: 100px;
 }
 
+.button {padding-left: 49%;
+padding-top: 80px;}
 
 #back-button {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     width: 100px;
     height: 20px;
@@ -134,3 +149,6 @@ td button {
 #back-button:hover {
     background-color: #635a3d
 }
+td {
+    font-family: Arial;
+        text-align: center;}
