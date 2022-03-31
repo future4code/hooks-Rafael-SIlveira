@@ -1,0 +1,30 @@
+body {font-family: Arial, Helvetica, sans-serif}
+
+.opcao-menu { 
+
+    background-color: rgb(207, 105, 127);
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color:rgb(255, 255, 255)
+    
+} 
+
+.titulo {
+    font-size: 30px;
+    color: rgb(70, 70, 126);
+}
+footer {position: absolute;
+    bottom: 0;
+    background-color: rgb(36, 206, 206);
+    width: 100%;
+    text-align: center;
+}
+
