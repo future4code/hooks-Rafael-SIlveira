@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+  .header   {
+  
+    margin: 0px;
+    width: 100vw;
+    height: 10vh;
+    background: rgb(138, 44, 44);
+    position: fixed;
+  }
+
+.foto {
+    position: fixed;
+    padding-left: 20px;
+    padding-top: 10%;
+    padding-right: 20px;
+    width: 200px;
+   
+}
+.gid {display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    background: rgb(241, 237, 214);
+}
+
+
+
+  footer   {
+    position: absolute;
+    bottom: 0;
+    margin: 0px;
+    width: 100%;
+    height: 5%;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding-left: 50%;
+    padding-top: 10px;
+  }
+
+#logo {
+
+   margin-left: 20px;
+    padding: 24px 0;
+    font: bold 
+    transition: color 0.4s ease 0s;
+    position: fixed;
+    white-space: nowrap;
+    text-align: center;
+    display: inline-block;
+  }
+
+
+.header button{
+   
+    border: none;
+    margin: 0px;
+    height: 79px;
+    width: 100px;
+    background: rgb(138, 44, 44);
+    font: bold  arial;
+    color: rgb(255, 255, 255);
+    transition: color 0.8s ease 0s;
+    display: inline-block;
+    float: right;  
+    white-space: nowrap;
+
+}
+  
+  h1, span  {
+    color: rgb(255, 255, 255);
+  }
+
+ 
+
+  table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+
+
+.pad {
+  padding-top: 40px;
+}
+.pad1 {
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+  #padding  {
+    padding: 200px;
+    
+  }
+  
+#padding1 {
+  padding: 9%;
+}
+.lista {
+  margin-left: 22px;
+  list-style: circle;
+}
+
+
+
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  font-weight: bold;
+  width: 20px;
+  
+}
+.icon p {
+  text-align: left;
+  padding-left: 15px;
+  width: 100%;
+}
+a {
+  
+  text-decoration: none;}
